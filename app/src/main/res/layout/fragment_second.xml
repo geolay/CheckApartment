@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#CDDC39"
     tools:context=".SecondFragment">
 
     <ImageView
@@ -103,19 +104,19 @@
             android:id="@+id/rbNormal"
             android:layout_width="match_parent"
             android:layout_height="25dp"
-            android:text="Estado Termnaciones Normal" />
+            android:text="Estado de Termnaciones Normal" />
 
         <RadioButton
             android:id="@+id/rbRegular"
             android:layout_width="match_parent"
             android:layout_height="25dp"
-            android:text="Estado Teminaciones Regular" />
+            android:text="Estado de Teminaciones Regular" />
 
         <RadioButton
             android:id="@+id/rbMalas"
             android:layout_width="match_parent"
             android:layout_height="25dp"
-            android:text="Estado Terminaciones Malas" />
+            android:text="Estado de Terminaciones Malas" />
     </RadioGroup>
 
     <TextView
