@@ -177,7 +177,7 @@ public class SecondFragment extends Fragment implements ICalculo {
                 Intent intent = new Intent(Intent.ACTION_SEND);
                 intent.setData(Uri.parse("mailto: "));
                 intent.setType("text/plain");
-                intent.putExtra(Intent.EXTRA_EMAIL, new String[]{"vedac72@gmail.com"});
+                intent.putExtra(Intent.EXTRA_EMAIL, new String[]{"ernesto.olavarria@gmail.com"});
                 startActivity(intent);
             }
         });
